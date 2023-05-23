@@ -16,6 +16,6 @@
 
 LOCAL_PATH := device/samsung/universal990-common
 
-ifneq ($(filter x1s x1slte, $(TARGET_DEVICE)),)
+ifneq ($(filter x1s x1slte z3s, $(TARGET_DEVICE)),)
   include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
